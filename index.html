@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/fullPage.js/3.1.2/fullpage.css" rel="stylesheet">
+  <script src="https://cdn.bootcdn.net/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+  <script>
+    new fullpage('#fullpage', {
+      //options here
+      autoScrolling: true,
+      scrollHorizontally: true
+    });
+  </script>
+</body>
+
+</html>
