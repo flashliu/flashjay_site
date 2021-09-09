@@ -1,0 +1,16 @@
+.title {
+  @apply text-center text-3xl text-gray-800 flex items-center justify-center;
+}
+
+.project-title {
+  @apply flex items-center;
+  @apply before:h-4 before:w-1 before:bg-indigo-500 before:block before:rounded before:mr-2;
+}
+
+.scroll {
+  @apply mt-10 overflow-x-scroll pb-10 w-screen scrollbar-hide;
+}
+.projectList {
+  @apply space-x-5 px-5 flex flex-nowrap;
+  min-width: min-content;
+}
